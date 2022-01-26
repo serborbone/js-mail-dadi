@@ -14,8 +14,12 @@ if (randomNumbOne > randomNumbTwo) {
 
   alert('Giocatore Uno ha vinto!');
 
+} else if (randomNumbOne == randomNumbTwo) {
+
+  alert('Pareggio!')
+  
 } else {
 
   alert('Giocatore Due ha vinto!');
-  
+
 }
